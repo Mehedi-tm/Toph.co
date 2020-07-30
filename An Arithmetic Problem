@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t,m=0;
+    cin>>t;
+    while(t--)
+    {
+        int a,b,c,n,d,e;
+        cin>>a>>b>>c>>n;
+        d=b-a;
+        e=c-b;
+        if(d==e)
+            cout<<"Case "<<++m<<":"<<" "<<a+(n-1)*d<<endl;
+        else
+            cout<<"Case "<<++m<<":"<<" "<<"Error"<<endl;
+
+
+
+    }
+}
