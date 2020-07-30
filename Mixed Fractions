@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n,d,a,m;
+    cin>>n>>d;
+    a=n/d;
+    m=n%d;
+
+    cout<<a<<" "<<m<<" "<<d<<endl;
+}
